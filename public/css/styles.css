@@ -1,0 +1,60 @@
+.board {
+  width: 600px;
+  height: 610px;
+  margin: 0 auto;
+  position: relative; }
+
+.row1 {
+  position: absolute;
+  float: left;
+  top: 0px;
+  width: 600px;
+  height: 200px; }
+
+.column1 {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  border-right: 10px solid black; }
+
+.row2 {
+  position: absolute;
+  float: left;
+  top: 200px;
+  width: 600px;
+  height: 200px;
+  border-top: 10px solid black; }
+
+.column2 {
+  position: absolute;
+  left: 200px;
+  width: 200px;
+  height: 200px;
+  border-right: 10px solid black; }
+
+.row3 {
+  position: absolute;
+  float: left;
+  top: 400px;
+  width: 600px;
+  height: 200px;
+  border-top: 10px solid black; }
+
+.column3 {
+  position: absolute;
+  left: 400px;
+  width: 200px;
+  height: 200px; }
+
+.symbol {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 200px;
+  text-align: center;
+  font-family: cursive;
+  color: chartreuse;
+  background-color: darkblue;
+  background-color: forestgreen;
+  background-color: black; }

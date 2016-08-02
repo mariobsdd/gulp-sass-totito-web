@@ -1,0 +1,50 @@
+$height: 610px;
+$width:600px;
+$back-color: lightgray;
+$size-top: 0px;
+$size-left: 0px;
+$size-box: 200px;
+.board{
+  width: $width;
+  height: $height;
+  margin: 0 auto;
+  position: relative;
+}
+@for $i from 1 through 3 {
+  
+  .row#{$i}{
+    position: absolute;
+    float: left;
+    top: $size-top;
+    width: $width;
+    height: $size-box;
+    @if ($i!=1) {
+      border-top: 10px solid black;
+    }
+    
+  }
+  .column#{$i}{
+    position: absolute;
+    left: $size-left;
+    width: $size-box;
+    height: $size-box;
+    @if ($i!=3){
+      border-right: 10px solid black;
+    }
+  }
+  $size-top: $size-top + $size-box;
+  $size-left: $size-left + $size-box;
+}
+
+.symbol{
+  width:200px;
+  height:200px;
+  line-height: 200px;
+  font-size: 200px;
+  text-align: center;
+  font-family: cursive;
+  color: chartreuse;
+  background-color: darkblue;
+  background-color: forestgreen;
+  background-color: black;
+}
