@@ -1,60 +1,60 @@
 .board {
-  width: 600px;
+  background-color: chartreuse;
+  border-radius: 10%;
   height: 610px;
   margin: 0 auto;
-  position: relative; }
+  position: relative;
+  width: 600px; }
 
 .row1 {
-  position: absolute;
   float: left;
+  height: 200px;
+  position: absolute;
   top: 0px;
-  width: 600px;
-  height: 200px; }
+  width: 600px; }
 
 .column1 {
-  position: absolute;
-  left: 0px;
-  width: 200px;
+  border-right: 10px solid white;
   height: 200px;
-  border-right: 10px solid black; }
+  left: 0px;
+  position: absolute;
+  width: 200px; }
 
 .row2 {
-  position: absolute;
+  border-top: 10px solid white;
   float: left;
-  top: 200px;
-  width: 600px;
   height: 200px;
-  border-top: 10px solid black; }
+  position: absolute;
+  top: 200px;
+  width: 600px; }
 
 .column2 {
-  position: absolute;
-  left: 200px;
-  width: 200px;
+  border-right: 10px solid white;
   height: 200px;
-  border-right: 10px solid black; }
+  left: 200px;
+  position: absolute;
+  width: 200px; }
 
 .row3 {
-  position: absolute;
+  border-top: 10px solid white;
   float: left;
-  top: 400px;
-  width: 600px;
   height: 200px;
-  border-top: 10px solid black; }
+  position: absolute;
+  top: 400px;
+  width: 600px; }
 
 .column3 {
-  position: absolute;
+  height: 200px;
   left: 400px;
-  width: 200px;
-  height: 200px; }
+  position: absolute;
+  width: 200px; }
 
 .symbol {
-  width: 200px;
-  height: 200px;
-  line-height: 200px;
-  font-size: 200px;
-  text-align: center;
+  color: #1947FF;
   font-family: cursive;
-  color: chartreuse;
-  background-color: darkblue;
-  background-color: forestgreen;
-  background-color: black; }
+  font-size: 200px;
+  line-height: 200px;
+  text-align: center; }
+
+.btn {
+  display: none; }
